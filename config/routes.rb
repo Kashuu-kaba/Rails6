@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   # get 'todolists/index'
   # get 'todolists/show'
   # get 'todolists/edit'
+  root to: 'homes#top'
   resources 'todolists'
-  get 'homes/top'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

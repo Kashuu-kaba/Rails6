@@ -1,2 +1,15 @@
 <h1>Homes#top</h1>
 <p>Find me in app/views/homes/top.html.erb</p>
+
+<a href="todolists">リンク</a>
+
+<%= link_to todolists_path, class: "btn btn-outline-secondary btn-block col-3" do %>
+    <i class="fas fa-user-cog"></i>
+<% end %>
+
+
+<li>
+  <%= link_to todolists_path,class: 'nav-link text-red' do %>
+    <i class="fas fa-home"></i>Home
+  <% end %>
+</li>
